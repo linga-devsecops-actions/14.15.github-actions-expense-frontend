@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 jobs:
   frontend-ci:
-    uses: linga-devsecops-actions/14.12.github-actions-expense-reusable-workflows/.github/workflows/nginx-common.yaml@main
+    uses: linga-devsecops-actions/14.12.github-actions-expense-reusable-workflows/.github/workflows/frontend-nginx-common.yaml@main
     with:
       project: expense
       component: frontend
